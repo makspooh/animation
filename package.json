@@ -1,0 +1,25 @@
+{
+  "name": "animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makspooh/animation.git"
+  },
+  "author": "Maks Pooh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makspooh/animation/issues"
+  },
+  "homepage": "https://github.com/makspooh/animation#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
