@@ -72,16 +72,16 @@
     height: 100px;
     border-radius: 50%;
     box-shadow: 2px 2px 3px black;
-    animation: animation5 2s infinite ease-in-out; }
+    animation: animation5 4s infinite ease-in-out; }
   .container2__rect1 {
     background: tomato;
-    animation-delay: 1.5s; }
+    animation-delay: 3s; }
   .container2__rect2 {
     background: blue;
-    animation-delay: 1s; }
+    animation-delay: 2s; }
   .container2__rect3 {
     background: lightgrey;
-    animation-delay: 0.5s; }
+    animation-delay: 1s; }
   .container2__rect4 {
     background: yellow;
     animation-delay: 0s; }
