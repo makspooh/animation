@@ -14,18 +14,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg); }
-
-.container__rect1 {
-  animation: rotate1 3s infinite; }
-
-.container__rect2 {
-  animation: rotate2 3s infinite; }
-
-.container__rect3 {
-  animation: rotate3 3s infinite; }
-
-.container__rect4 {
-  animation: rotate4 3s infinite; }
+  .container__rect1_animation-1 {
+    animation: rotate1 3s infinite; }
+  .container__rect2_animation-2 {
+    animation: rotate2 3s infinite; }
+  .container__rect3_animation-3 {
+    animation: rotate3 3s infinite; }
+  .container__rect4_animation-4 {
+    animation: rotate4 3s infinite; }
 
 @keyframes rotate1 {
   50% {
