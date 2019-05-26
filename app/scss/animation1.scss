@@ -1,0 +1,86 @@
+.container1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotateContainer 2s infinite;
+
+    &__rect1, 
+    &__rect2,
+    &__rect3,
+    &__rect4 {
+        width: 100px;
+        height: 100px;
+        border: 5px solid black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate((45deg));
+    }
+
+    &__rect1_animation-1 {
+        animation: rotate1 3s infinite;
+    }
+    
+    &__rect2_animation-2 {
+        animation: rotate2 3s infinite;
+    }
+    
+    &__rect3_animation-3 {
+        animation: rotate3 3s infinite;
+    }
+    
+    &__rect4_animation-4 {
+        animation: rotate4 3s infinite;
+    }
+}
+
+@keyframes rotate1 {
+    50% {
+        transform: rotate(-45deg);
+        top: 0;
+        left: 0;
+        border-color: blue;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate((-135deg));
+    }
+  }
+
+@keyframes rotate2 {
+    50% {
+        transform: rotate(-45deg);
+        top: 0;
+        right: 0;
+        border-color: green;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate((-135deg));
+    }
+}
+
+@keyframes rotate3 {
+    50% {
+        transform: rotate(-45deg);
+        bottom: 0;
+        left: 0;
+        border-color: yellow;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate((-135deg));
+    }
+}
+
+@keyframes rotate4 {
+    50% {
+        transform: rotate(-45deg);
+        bottom: 0;
+        right: 0;
+        border-color: red;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate((-135deg));
+    }
+}
